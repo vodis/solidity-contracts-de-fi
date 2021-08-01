@@ -1,0 +1,42 @@
+{
+  "name": "DeFi",
+  "version": "1.0.0",
+  "description": "Smart Contract for Solidity",
+  "main": "truffle-config.js",
+  "scripts": {
+    "truffle": "trufle compile",
+    "migrate-rinkeby": "truffle migrate --network rinkeby --rest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vodis/solidity-contracts-de-fi.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "author": "vodis [[voitenko.d]]",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "dotenv": "^10.0.0",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-mocha-no-only": "^1.1.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^2.3.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.16",
+    "solidity-coverage": "^0.7.16",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "truffle-plugin-verify": "^0.5.6",
+    "web3": "^1.5.0"
+  }
+}
